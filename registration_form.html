@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>Registration Form</title>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+	</head>
+	<body>
+		<form>
+		<fieldset>
+		<legend>Registration Form</legend>
+		<br/>
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" placeholder="Your name..">
+		<br/><br/>
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" placeholder="Your Last name..">
+		<br/><br/>
+
+		<table>
+		<tr vertical-align="top"><td><label for="addr">Address</label></td><td></td><td></td><td></td><td>
+		<textarea name="subject" placeholder="Your Address Please.." id="addr"></textarea></td></tr>
+		</table>
+		<br/>
+
+		Gender &nbsp;&nbsp; 
+		Male
+		<input type="radio" name="gender">&nbsp;&nbsp;
+		Female
+		<input type="radio" name="gender">&nbsp;&nbsp;
+		Others
+		<input type="radio" name="gender">&nbsp;&nbsp;
+		<br/><br/>
+		Class &nbsp;&nbsp;
+		&nbsp;&nbsp;<input type="radio" name="gender">&nbsp;A
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender">&nbsp;B
+		<br/><br/>
+		<label for="Bd">Birth date</label>
+		<input type="date" id="Bd">
+		<br/><br/>
+		profile pic
+		<input type="file" accept=image/jpeg>
+		<br/><br/>
+		<label for="Email">E-Mail Id</label>
+		<input type="email" name="email" placeholder="shalin@gmail.com" id="Email">
+		<br/><br/>
+		<label for="con">Contact No</label>&nbsp;
+		<input type="tel" id="con"><br/><br/>
+		Hobby:&nbsp;&nbsp;
+		<input type="checkbox">Reading &nbsp;
+		<input type="checkbox">Playing &nbsp;
+		<input type="checkbox">Swimming &nbsp;
+		<br/><br/>
+		Favourite Subject &nbsp;&nbsp;
+		<select>
+		<option>Linux Kernel Interface</option>
+		<option>HTML</option>
+		<option>CSS</option>
+		<option>JDBC</option>
+		<option>.NET</option>
+		<option>WT</option>
+		<option>TOC</option>
+		<option>C#</option>
+		<option>PHP</option>
+		</select>
+		<br/><br/>
+		<label for="pwd">Password</label>&nbsp;&nbsp;
+		<input type="Password" id="pwd">
+		<br/><br/>
+		Upload Your Resume:
+		<input type="file" accept="application/pdf">
+		<br/><br/>
+		<a href="test.html"><input type="submit" value="submit"></a>&nbsp;&nbsp;
+		<input type="reset" value="reset">
+		</form>
+	</body>
+</html>
